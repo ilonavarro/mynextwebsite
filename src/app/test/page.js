@@ -6,10 +6,11 @@ export default function Test() {
   const menuRef = useRef()
   const openClose = () => {
     menuRef.current.classList.toggle('active')
+    // menuRef.current.classList.remove('active')
     // open
     //   ? document.querySelector('.phone-screen').classList.toggle('active')
     //   : document.querySelector('.phone-screen').classList.remove('active')
-    console.log('clicou e open é ')
+    console.log(menuRef.current.classList)
   }
   return (
     <div className='phone-frame'>
