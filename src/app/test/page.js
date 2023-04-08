@@ -14,7 +14,7 @@ export default function Test() {
   }
   return (
     <div className='phone-frame'>
-      <div className='phone-screen' ref={menuRef}>
+      <div ref={menuRef} className='phone-screen'>
         <div className='imageContainer'>
           <div className='overlay'></div>
         </div>
