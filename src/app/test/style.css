@@ -1,3 +1,4 @@
+/*
 body {
   align-items: center;
   background-color: #569bd7;
@@ -68,7 +69,7 @@ body {
   cursor: pointer;
   fill: none;
   height: 24px;
-  /* left: 35px; */
+  /* left: 35px; */ /*
   padding: 5px;
   -webkit-tap-highlight-color: transparent;
   width: 24px;
@@ -152,3 +153,4 @@ body {
   font-size: 12px;
   font-weight: 600;
 }
+*/

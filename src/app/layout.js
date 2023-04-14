@@ -1,4 +1,4 @@
-import Menu from '@/components/Menu'
+import Menu from '@/components/Molecules/Menu'
 import './globals.css'
 
 export const metadata = {
@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body>
         <Menu />
-        {children}
+        {/* {children} */}
       </body>
     </html>
   )

@@ -1,3 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu__item {
+  @apply text-white font-bold uppercase;
+}
+
+/*
 :root {
   --AuroMetalSaurus: #747e7e;
   --EletricBlue: #72f2eb;
@@ -106,3 +115,4 @@ a {
     color-scheme: dark;
   }
 }
+*/
