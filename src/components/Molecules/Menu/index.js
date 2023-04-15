@@ -17,9 +17,6 @@ export default function Menu() {
           Principal
         </a>
         <a href='#' className='menu__item'>
-          Portfolio
-        </a>
-        <a href='#' className='menu__item'>
           Curriculo
         </a>
         <a href='#' className='menu__item'>
