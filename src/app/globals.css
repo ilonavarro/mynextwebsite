@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 .menu__item {
-  @apply text-white font-bold uppercase;
+  @apply text-white font-bold uppercase hover:text-JellyBeanBlue;
+}
+
+.menu__item_active {
+  @apply text-JellyBeanBlue uppercase hover:text-white;
 }
 
 /*

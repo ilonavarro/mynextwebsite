@@ -1,4 +1,5 @@
 import Menu from '@/components/Molecules/Menu'
+import MMe from '@/components/Molecules/MMe'
 import './globals.css'
 
 export const metadata = {
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body>
         <Menu />
+        <MMe />
         {/* {children} */}
       </body>
     </html>
