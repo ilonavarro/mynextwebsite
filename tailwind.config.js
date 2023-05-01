@@ -14,6 +14,9 @@ module.exports = {
         AuroMetalSaurus: '#747e7e',
         BlackCoffee: '#2C3232',
         JellyBeanBlue: '#3f7c85'
+      },
+      fontFamily: {
+        prompt: ['var(--font-prompt)']
       }
     }
   },
