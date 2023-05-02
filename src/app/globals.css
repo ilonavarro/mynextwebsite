@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .menu__item {
-  @apply text-white font-bold uppercase hover:text-JellyBeanBlue;
+  @apply text-white font-bold uppercase hover:text-JellyBeanBlue font-prompt;
 }
 
 .menu__item_active {
