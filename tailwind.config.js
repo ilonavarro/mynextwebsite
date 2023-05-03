@@ -11,6 +11,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        light: '#f5f5f5',
         AuroMetalSaurus: '#747e7e',
         BlackCoffee: '#2C3232',
         JellyBeanBlue: '#3f7c85'
