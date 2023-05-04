@@ -3,7 +3,7 @@ import Menu from '@/components/Molecules/Menu'
 
 export default function Header() {
   return (
-    <header className='header'>
+    <header className='w-full'>
       <div className='flex w-screen justify-center items-center pb-3'>
         <MLogo />
       </div>
