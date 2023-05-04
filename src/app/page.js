@@ -1,6 +1,23 @@
+import MMe from '@/components/Molecules/MMe'
+
+export default function Home() {
+  return (
+    <div>
+      <p>Hello world</p>
+      <MMe />
+    </div>
+  )
+}
+
+/*
 import Image from 'next/image'
 import styles from './page.module.css'
+import { Inter } from 'next/font/google'
 
+const inter = Inter({
+  subsets: ['latin'],
+  weight: '400'
+})
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -86,3 +103,4 @@ export default function Home() {
     </main>
   )
 }
+*/

@@ -31,11 +31,10 @@ export default function RootLayout({ children }) {
       lang='en'
       className={`${prompt.variable} font-prompt bg-light w-full min-h-screen`}
     >
-      <head></head>
       <body>
         <Header />
-        <MMe />
-        {/* {children} */}
+        {/* <MMe /> */}
+        {children}
       </body>
     </html>
   )
